@@ -1,0 +1,117 @@
+/* $veryperi: #6667ab;
+$background-color: whitesmoke;
+$box-color: #d7d7fa; */
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: -webkit-radial-gradient(0% 100%, 
+        ellipse cover, 
+        rgba(215,215,250,.4) 10%,
+        rgba(102,103,171,0) 40%), 
+        linear-gradient(to bottom,  rgba(215,215,250,.25) 0%,rgba(102,103,171,.4) 100%), 
+        linear-gradient(135deg,  #6667ab 0%,#d7d7fa 100%);
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+#main-div {
+    padding-left: auto;
+    padding-right: auto;
+    /* background-color: aquamarine; */
+}
+
+
+.top-div {
+    text-align: center;
+    margin: 0;
+    height: 15%;
+}
+
+
+.title {
+    font-size: 5rem;
+    color: #d7d7fa;
+    margin: 0;
+}
+.title:hover {
+    cursor: pointer;
+}
+
+
+.middle-div {
+    /* background-color: yellow; */
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75%;
+    
+}
+
+.input-div {
+    /* background-color: teal; */
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-div div {
+    margin: 5px 0px;
+
+}
+
+.input-div button {
+    margin: 5px 0px;
+}
+
+.social-login {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.social-login-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+    padding-top: 5px;
+}
+
+.social-login-form> span {
+    margin: 0px 5px;
+}
+
+.social-login-form > span > img {
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.322);
+}
+
+.social-login-form > span > img:hover {
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.322);
+    cursor: pointer;
+}
+  
+.social-login-button {
+    width: 200px;
+    height: 50px;
+}
+  
+  
+
+
+.footer-div {
+    height: 10%;
+}
